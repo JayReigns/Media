@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Media</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<string name="library_audios">Songs</string>
+	<string name="library_artists">Artists</string>
+	<string name="library_albums">Albums</string>
+	<string name="library_playlists">Playlists</string>
+	<string name="library_videos">Videos</string>
+	
+	<string name="library_subtext">%d songs</string>
+
+</resources>

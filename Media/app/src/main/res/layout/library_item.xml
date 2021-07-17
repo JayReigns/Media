@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="?android:attr/selectableItemBackground"
+	android:clickable="true"
+	android:focusable="true"
+	android:gravity="center">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true">
+
+		<ImageView
+			android:src="@android:drawable/ic_delete"
+			android:id="@+id/item_icon"
+			android:layout_width="52dp"
+			android:layout_height="52dp"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Medium Text"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/item_title"
+				android:maxLines="2"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Small Text"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center|start"
+				android:id="@+id/item_sub_title"
+				android:maxLines="1"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ImageView
+		android:src="@drawable/chevron_right"
+		android:layout_width="52dp"
+		android:layout_height="52dp"
+		android:layout_margin="10dp"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
